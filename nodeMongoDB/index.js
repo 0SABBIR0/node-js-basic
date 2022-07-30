@@ -1,6 +1,4 @@
 var mongoCli = require("mongodb").MongoClient;
-// var URL =
-//   "mongodb+srv://noobUser:<password>@cluster0.ypvke.mongodb.net?retryWrites=true&w=majority";
 var URL = "mongodb://127.0.0.1:27017/"; //for local server
 mongoCli.connect(URL, function (error, myMongoCli) {
   if (error) {
